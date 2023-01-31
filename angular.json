@@ -30,7 +30,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/devextreme/dist/css/dx.common.css",
+              "src/themes/generated/theme.additional.css",
+              "src/dx-styles.scss",
+              "src/styles.scss",
+              {
+                "input": "node_modules/devextreme/dist/css/dx.material.blue.light.css",
+                "bundleName": "dx.theme.material.blue.light"
+              },
+              {
+                "input": "node_modules/devextreme/dist/css/dx.material.blue.dark.css",
+                "bundleName": "dx.theme.material.blue.dark"
+              }
             ],
             "scripts": []
           },
